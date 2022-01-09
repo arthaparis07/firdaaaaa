@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Form HTML 
+    </h1>
+<form>
+    <table>
+        <tr>
+            <td>
+                Name:
+            </td>
+            <td>
+                <input type="text" name="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Gender:
+            </td>
+            <td>
+                <input type="radio" name="Gender">Man
+                <input type="radio" name="Gender">Woman
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Address:
+            </td>
+            <td>
+                <input type="text" addres="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Country:
+            </td>
+            <td>
+                <select id="country">
+                    <option value="indonesia">Indonesia</option>
+                    <option value="malaysia">Malaysia</option>
+                    <option value="thailand">Thailand</option>
+                    <option value="vietnam">Vietnam</option>
+                    <option value="singapura">Singapura</option>
+                    <option value="kamboja">kamboja</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email:
+            </td>
+            <td>
+                <input type="text" email="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Photo:
+            </td>
+            <td>
+                <form action="post" method="proses.php" enctype="multipart/form-data">
+                    <input type="text" name="">
+                    <input type="file" name="photo">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Comment:
+            </td>
+            <td>
+                <textarea name="memment" rows=6 width=200>
+                </textarea>
+                <input type="submit" name="submit" value="submit">
+            </td>
+        </tr>
+    </table>
+</form>
+<style>
+    div.a {
+        text-align: center;
+    }
+</style>
+<div class="a">
+    <h4>
+    Form Registrasi
+    </h4>
+</div>
+</body>
